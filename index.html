@@ -1,0 +1,583 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Assignment-three</title>
+
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/css-social-buttons/1.4.0/css/zocial.min.css"
+        integrity="sha512-D+88+j7wBsrfUyRLxvAi/ZYJ+2xffS/A9skvhx8Q8cxXv5rVrNX5BYm+GblI1POb23bjAygg2nXytDHtoGc9lQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+
+
+
+
+
+
+
+
+    <!-- Add Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Add custom CSS -->
+
+
+
+
+
+
+
+</head>
+
+<body>
+    <header class="container">
+
+
+
+
+
+
+
+
+
+
+
+        <nav class="navbar navbar-expand-md navbar-dark">
+            <div class="container">
+                <!-- Toggle button for collapsed menu (visible on small screens) -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Logo and Title (visible on small screens) -->
+                <a class="navbar-brand d-block d-md-none" href="#">
+                    <img src="your-logo.png" alt="Logo" width="40" height="40">
+                    Your Title
+                </a>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <!-- Left side (visible on medium screens and larger) -->
+                    <ul class="navbar-nav d-none d-md-flex">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">All Fruits</a>
+                        </li>
+                    </ul>
+
+                    <!-- Logo and Title (visible on medium screens and larger) -->
+                    <a class="navbar-brand mx-auto d-none d-md-block" href="#">
+                        <img src="images/logo.png" alt="Logo" width="40" height="40">
+                        Fruit Burst
+                    </a>
+
+                    <!-- Right side search and round button (visible on medium screens and larger) -->
+                    <div class="ml-auto d-none d-md-flex">
+                        <form class="form-inline">
+                            <input class="form-control mr-sm-2" type="search" placeholder="Search here"
+                                aria-label="Search">
+                        </form>
+                        <div class="round-button">
+                            <!-- Add your round button icon here -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Add Bootstrap JS -->
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+    </header>
+
+    <main>
+
+
+
+
+
+        <!-- Carousel Section -->
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active" style="background-image: url('images/banner1.png');">
+                    <div class="carousel-content">
+                        <h2>Exotic tastes at your doorstep</h2>
+                        <p>we are highly professionals</p>
+                        <a href="#" class="btn btn-danger">Shop Now</a>
+                    </div>
+                </div>
+                <div class="carousel-item" style="background-image: url('images/banner2.png');">
+                    <div class="carousel-content">
+                        <h2>Exotic tastes at your doorstep</h2>
+                        <p>we are highly professionals</p>
+                        <a href="#" class="btn btn-danger">Shop Now</a>
+                    </div>
+                </div>
+                <div class="carousel-item" style="background-image: url('images/banner3.png');">
+                    <div class="carousel-content">
+                        <h2>Exotic tastes at your doorstep</h2>
+                        <p>we are highly professionals</p>
+                        <a href="#" class="btn btn-danger"></a>Shop Now
+                    </div>
+                </div>
+                <div class="carousel-item" style="background-image: url('images/banner4.png');">
+                    <div class="carousel-content">
+                        <h2>Exotic tastes at your doorstep</h2>
+                        <p>we are highly professionals</p>
+                        <a href="#" class="btn btn-primary">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+        <!-- Fruit Section -->
+        <div class="fruit-section text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-2 fruit-item">
+                        <img src="images/fruit1.png" alt="Fruit 1" class="fruit-image">
+                        <p>grapes</p>
+                    </div>
+                    <div class="col-2 fruit-item">
+                        <img src="images/fruit2.png" alt="Fruit 2" class="fruit-image">
+                        <p>Orange</p>
+                    </div>
+                    <div class="col-2 fruit-item">
+                        <img src="images/fruit3.png" alt="Fruit 3" class="fruit-image">
+                        <p>mango</p>
+                    </div>
+                    <div class="col-2 fruit-item">
+                        <img src="images/fruit4.png" alt="Fruit 4" class="fruit-image">
+                        <p>Strawberry</p>
+                    </div>
+                    <div class="col-2 fruit-item">
+                        <img src="images/fruit5.png" alt="Fruit 5" class="fruit-image">
+                        <p>pomegranate</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- Fruit Section -->
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="fruit-title">Deal of The day
+                    </div>
+                    <p>
+                        Fresh fruits with most affordable price range with free home delivery
+                    </p>
+                </div>
+                <div class="col-lg-6">
+                    <!-- Placeholder for live expiry date with time and seconds -->
+                    <div class="fruit-title">29 : 15 : 25 :08 </div>
+                    <div class="fruit-expires">days Hrs mins seconds</div>
+                </div>
+            </div>
+
+            <div class="row mt-5 fruit-cards">
+                <div class="col-md-6 col-lg-3" data-toggle="modal" data-target="#fruitModal1">
+                    <div class="fruit-card">
+                        <img src="images/fruit6.png" alt="Fruit 1">
+                        <div class="fruit-name">12.90$ - 18.85$</div>
+                        <div class="fruit-price">Apple</div>
+                        <div class="fruit-star">⭐⭐⭐⭐⭐</div>
+                        <!-- No button here, clicking the card will open the modal -->
+                    </div>
+                </div>
+                <!-- Add similar markup for other fruit cards -->
+                <div class="col-md-6 col-lg-3" data-toggle="modal" data-target="#fruitModal2">
+                    <div class="fruit-card">
+                        <img src="images/fruit7.png" alt="Fruit 2">
+                        <div class="fruit-name">12.90$ - 18.85$</div>
+                        <div class="fruit-price">Orange</div>
+                        <div class="fruit-star">⭐⭐⭐⭐</div>
+                        <!-- No button here, clicking the card will open the modal -->
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3" data-toggle="modal" data-target="#fruitModal3">
+                    <div class="fruit-card">
+                        <img src="images/fruit8.png" alt="Fruit 3">
+                        <div class="fruit-name">14.90$ - 19.85$</div>
+                        <div class="fruit-price">Red dragon</div>
+                        <div class="fruit-star">⭐⭐⭐⭐⭐</div>
+                        <!-- No button here, clicking the card will open the modal -->
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3" data-toggle="modal" data-target="#fruitModal4">
+                    <div class="fruit-card">
+                        <img src="images/fruit9.png" alt="Fruit 4">
+                        <div class="fruit-name">12.90$ - 18.85$</div>
+                        <div class="fruit-price">Banana</div>
+                        <div class="fruit-star">⭐⭐⭐⭐⭐</div>
+                        <!-- No button here, clicking the card will open the modal -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- Fruit Modals -->
+            <!-- Fruit Modal 1 -->
+            <div class="modal fade" id="fruitModal1" tabindex="-1" role="dialog" aria-labelledby="fruitModal1Label"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="fruitModal1Label">Fruit 1 Details</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="images/fruit6.png" alt="Fruit 1" class="w-100">
+                            <!-- Fruit 1 Details -->
+                            <p>Fruit 1 details go here...</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Fruit Modal 2 -->
+            <!-- Add similar markup for other fruit modals -->
+            <div class="modal fade" id="fruitModal2" tabindex="-1" role="dialog" aria-labelledby="fruitModal2Label"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="fruitModal2Label">Fruit 2 Details</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="images/fruit7.png" alt="Fruit 2" class="w-100">
+                            <!-- Fruit 2 Details -->
+                            <p>Fruit 2 details go here...</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Fruit Modal 3 -->
+
+
+            <div class="modal fade" id="fruitModal3" tabindex="-1" role="dialog" aria-labelledby="fruitModal3Label"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="fruitModal2Label">Fruit 2 Details</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="images/fruit8.png" alt="Fruit 2" class="w-100">
+                            <!-- Fruit 2 Details -->
+                            <p>Fruit 3 details go here...</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+            <!-- Fruit Modal 4 -->
+
+            <div class="modal fade" id="fruitModal4" tabindex="-1" role="dialog" aria-labelledby="fruitModal4Label"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="fruitModal2Label">Fruit 2 Details</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="images/fruit9.png" alt="Fruit 2" class="w-100">
+                            <!-- Fruit 2 Details -->
+                            <p>Fruit 4 details go here...</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Add similar markup for other fruit modals -->
+
+            <!-- Button in the center -->
+            <div class="center-button">
+                <button class="btn btn-primary">Shop Now</button>
+            </div>
+        </div>
+
+        <!-- Add Bootstrap JS -->
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- Meet the Team Section -->
+        <section class="meet-the-team">
+            <div class="container">
+                <h2>Meet The Team section</h2>
+                <p>
+                    Most experienced and dedicated workforce is determined to provide you best service
+                </p>
+                <div class="row">
+                    <!-- Team Member 1 -->
+                    <div class="col-md-2 team-member">
+                        <img src="images/member1.png" alt="Team Member 1">
+                        <div class="name">John Doe</div>
+                        <div class="designation">Web Developer</div>
+                        <div class="social-icons">
+                            <a href="#" class="fab fa-facebook"></a>
+                            <a href="#" class="fab fa-twitter"></a>
+                            <a href="#" class="fab fa-linkedin"></a>
+                        </div>
+                    </div>
+                    <!-- Team Member 2 -->
+                    <!-- Add similar markup for other team members -->
+                    <div class="col-md-2 team-member">
+                        <img src="images/member2.png" alt="Team Member 2">
+                        <div class="name">Jane Smith</div>
+                        <div class="designation">Graphic Designer</div>
+                        <div class="social-icons">
+                            <a href="#" class="fab fa-facebook"></a>
+                            <a href="#" class="fab fa-twitter"></a>
+                            <a href="#" class="fab fa-linkedin"></a>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-2 team-member">
+                        <img src="images/member3.png" alt="Team Member 2">
+                        <div class="name">Janny</div>
+                        <div class="designation">Fruit Expert</div>
+                        <div class="social-icons">
+                            <a href="#" class="fab fa-facebook"></a>
+                            <a href="#" class="fab fa-twitter"></a>
+                            <a href="#" class="fab fa-linkedin"></a>
+                        </div>
+                    </div>
+
+
+
+
+
+                    <div class="col-md-2 team-member">
+                        <img src="images/member4.png" alt="Team Member 2">
+                        <div class="name">Sunny</div>
+                        <div class="designation">quality check</div>
+                        <div class="social-icons">
+                            <a href="#" class="fab fa-facebook"></a>
+                            <a href="#" class="fab fa-twitter"></a>
+                            <a href="#" class="fab fa-linkedin"></a>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Add Font Awesome icons (optional) -->
+        <script src="https://kit.fontawesome.com/your-font-awesome-kit.js" crossorigin="anonymous"></script>
+
+        <!-- Add Bootstrap JS -->
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </main>
+
+
+
+
+
+
+
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="container">
+            <img src="images/logo.png" alt="Logo" class="footer-logo">
+            <div class="footer-title">Fruit Burst</div>
+            <div class="row justify-content-center">
+                <div class="col-auto">
+                    <a href="#">Home</a>
+                </div>
+                <div class="col-auto">
+                    <a href="#">About Us</a>
+                </div>
+                <div class="col-auto">
+                    <a href="#">Shop</a>
+                </div>
+                <div class="col-auto">
+                    <a href="#">Support</a>
+                </div>
+                <div class="col-auto">
+                    <a href="#">All Fruits</a>
+                </div>
+                <div class="col-auto">
+                    <a href="#">My Account</a>
+                </div>
+            </div>
+            <div class="social-media-icons">
+                <a href="icons/fb.png"></a>
+                <a href="" class="fab fa-twitter"></a>
+                <a href="" class="fab fa-instagram"></a>
+                <a href="" class="fab fa-linkedin"></a>
+                <a href="#" class="fab fa-youtube"></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Add Font Awesome icons and Bootstrap JS -->
+    <script src="https://kit.fontawesome.com/your-font-awesome-kit.js" crossorigin="anonymous"></script>
+
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- bootstrap js -->
+    <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>

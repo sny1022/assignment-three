@@ -1,0 +1,308 @@
+.navbar {
+    border-radius: 600px;
+    background: #F85559;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+
+.form-inline {
+
+    width: 200px;
+    height: 56px;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+/* Style for the carousel slide background images */
+.carousel-item {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Style for the content in the carousel slide */
+.carousel-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+}
+
+/* Style for the fruit section */
+.fruit-section {
+    background-color: #fff;
+    position: relative;
+    bottom: 20vh;
+    padding: 20px 0;
+}
+
+/* Style for fruit images and names */
+.fruit-item {
+    display: inline-block;
+    margin: 10px;
+}
+
+.fruit-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.fruit-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.fruit-expires {
+    font-size: 18px;
+}
+
+.fruit-cards {
+    margin-top: 20px;
+}
+
+.fruit-card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.fruit-card img {
+    width: 80%;
+    max-height: 130px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.fruit-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.fruit-price {
+    font-size: 16px;
+    color: green;
+}
+
+.fruit-star {
+    color: gold;
+}
+
+.center-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* Custom CSS for Modals */
+.modal-dialog {
+    max-width: 300px;
+}
+
+@media (min-width: 576px) {
+    .modal-dialog {
+        max-width: 400px;
+    }
+}
+
+@media (min-width: 768px) {
+    .modal-dialog {
+        max-width: 500px;
+    }
+}
+
+@media (min-width: 992px) {
+    .modal-dialog {
+        max-width: 600px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.meet-the-team {
+    margin-top: 20px;
+    text-align: center;
+    padding: 50px 0;
+    color: #fff;
+
+
+
+
+
+
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url("images/team.png");
+    /* Replace with your background image URL */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+.team-member {
+    display: inline-block;
+    max-width: 100%;
+    margin: 20px;
+    text-align: center;
+}
+
+.team-member img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin-bottom: 15px;
+}
+
+.team-member .name {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.team-member .designation {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.team-member .social-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.team-member .social-icons a {
+    color: #fff;
+    margin: 0 5px;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+/* Responsive styles */
+@media (max-width: 767px) {
+    .team-member {
+        display: block;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer-logo {
+    max-width: 100%;
+    height: auto;
+    max-height: 50px;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+.footer-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 5px;
+}
+
+.social-media-icons {
+    margin-top: 20px;
+}
+
+.social-media-icons a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    margin: 0 10px;
+}
